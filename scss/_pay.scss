@@ -1,0 +1,78 @@
+
+
+.pay{
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    img{
+        width: 100%;  
+    } 
+    .line{
+        position: absolute;
+        top: 32%;
+        left: 44%;
+        width: 16%;
+        height: 2px;
+        background-color: $color-dark;
+    }
+    .check{
+        position: absolute;
+        top: 30%;
+        left: 42%;
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+        color: $color-dark;
+    }
+    h2{
+        position: absolute;
+        top: 40%;
+        left: 41%;
+        font-size: 3rem;
+        color: $color-dark;
+    }
+    input{
+        position: absolute;
+        top: 55%;
+        left: 35%;
+        width: 32%;
+        background-color: $color-secondary;
+        color: $color-dark;
+        font-size: 1.25rem;
+        font-weight: bold;
+        height: 65px;
+    }
+}
+
+@media (max-width: 375px){
+
+    //改變根元素字體大小，rem會相應做變動
+    // body{ 
+    //     font-size: 12px;
+    // }
+    .pay{
+        margin-bottom: 40px;
+        .line{
+            left: 40%;
+            width: 33%;
+            top: 34%;
+        }
+        .check{
+            left: 35%;
+            width: 40%;
+        }
+        h2{
+            left: 27%;
+        }
+        input{
+            top: 98%;
+            left: 0%;
+            width: 100%;
+        }
+    }
+
+    
+    
+
+}
+

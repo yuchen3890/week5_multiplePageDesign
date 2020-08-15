@@ -1,0 +1,16 @@
+@import "reset";
+@import "variable";
+@import "layout";
+@import "index";/*首頁*/
+@import "pay";
+
+
+
+
+
+
+/*做RWD時要記得加這段*/
+img {
+    max-width: 100%;
+    height: auto;
+}
